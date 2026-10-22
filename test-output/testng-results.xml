@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-23T00:41:36 IST" name="Default suite" finished-at="2026-10-23T00:41:42 IST" duration-ms="6479">
+    <groups>
+    </groups>
+    <test started-at="2026-10-23T00:41:36 IST" name="Default test" finished-at="2026-10-23T00:41:42 IST" duration-ms="6479">
+      <class name="api.test.GetTest">
+        <test-method is-config="true" signature="payload()[pri:0, instance:api.test.GetTest@6a78afa0]" started-at="2026-10-23T00:41:36 IST" name="payload" finished-at="2026-10-23T00:41:36 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payload -->
+        <test-method signature="posts(org.testng.ITestContext)[pri:1, instance:api.test.GetTest@6a78afa0]" started-at="2026-10-23T00:41:36 IST" name="posts" finished-at="2026-10-23T00:41:41 IST" duration-ms="4777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@732c2a62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posts -->
+        <test-method signature="purc()[pri:2, instance:api.test.GetTest@6a78afa0]" started-at="2026-10-23T00:41:41 IST" name="purc" finished-at="2026-10-23T00:41:42 IST" duration-ms="1620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purc -->
+      </class> <!-- api.test.GetTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
